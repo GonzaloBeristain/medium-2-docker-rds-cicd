@@ -7,5 +7,5 @@ def health_check(request):
     return Response({
         "status": "ok",
         "project": "medium-2-docker-rds-cicd",
-        "message": "Aguso ruuuuun este es el proyecto CI CD. Probando DOCKER y RDS en AWS"
+        "message": "Deploy automatico con Docker + RDS funcionando"
     })
